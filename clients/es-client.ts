@@ -1,6 +1,6 @@
 import elasticsearch from "elasticsearch"
 import fs from "fs"
-import { conversation, filters } from "../interfaces/feed"
+import { conversation } from "../interfaces/feed"
 require("dotenv").config()
 
 const esClient = new elasticsearch.Client({
@@ -44,7 +44,7 @@ export async function init_es_index() {
 
 export async function search(query: string) {
   const results = await esClient.search({
-    index: "conversations",
+    index: process.env.ES_INDEX_NAME,
     body: {
       query: {
         match: {

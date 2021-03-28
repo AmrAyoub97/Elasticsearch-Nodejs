@@ -1,5 +1,5 @@
 {
-  "name": "crowdanalyzer-conversations-feed",
+  "name": "elasticsearch-nodejs",
   "version": "1.0.0",
   "description": "It's Crowdanalyzer Technical Assesment For Hiring Process",
   "main": "index.ts",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AmrAyoub97/crowdanalyzer-conversations-feed.git"
+    "url": "git+https://github.com/AmrAyoub97/Elasticsearch-Nodejs.git"
   },
   "author": "Amr Ayman Ayoub",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AmrAyoub97/crowdanalyzer-conversations-feed/issues"
+    "url": "https://github.com/AmrAyoub97/Elasticsearch-Nodejs/issues"
   },
-  "homepage": "https://github.com/AmrAyoub97/crowdanalyzer-conversations-feed#readme",
+  "homepage": "https://github.com/AmrAyoub97/Elasticsearch-Nodejs#readme",
   "dependencies": {
     "@types/node": "^14.14.28",
     "chai": "^4.3.0",
